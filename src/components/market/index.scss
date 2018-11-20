@@ -1,0 +1,42 @@
+/*商品优惠活动*/
+.combo{
+  display:flex;
+  padding:0 .2rem;
+  a{
+    overflow: hidden;
+    width:3.6rem;
+    background-color:#eee;
+  }
+  .left{
+    margin-right:.08rem;
+  }
+  .combo-show{
+    position:relative;
+    height:2.8rem;
+    padding-top:.3rem;
+    padding-left:.3rem;
+    h3{
+      font-size:.32rem;
+      font-weight: bold;
+    }
+    .describe{
+      display:block;
+      margin:.08rem 0;
+      font-size:.26rem;
+    }
+    .rush{
+      font-size:.23rem;
+      font-weight: bold;
+      color:#af8260;
+      b{
+        font-size:.3rem;
+      }
+    }
+    img{
+      position:absolute;
+      right:0;
+      bottom:0;
+      width:2rem;
+    }
+  }
+}

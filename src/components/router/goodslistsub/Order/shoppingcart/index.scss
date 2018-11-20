@@ -1,0 +1,66 @@
+.shopping-cart{
+  display:flex;
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  height:.96rem;
+  background-color:rgba(61,61,63,.9);
+  .cart-pic{
+    position:relative;
+    width:calc(100vw - 5.92rem);
+    height:100%;
+    .pic{
+      position: absolute;
+      top:-.2rem;
+      left:calc(50% - .5rem);
+      width:1rem;
+      height:1rem;
+      border:.1rem solid #444;
+      border-radius:50%;
+      .gouwuche{
+        display:inline-block;
+        width:.8rem;
+        height:.8rem;
+        line-height:.8rem;
+        border-radius:50%;
+        background-color:#444;
+        font-size:.5rem;
+        text-align:center;
+        color:#666;
+      }
+      .num{
+        position:absolute;
+        top:-.1rem;
+        right:-.1rem;
+        width:.28rem;
+        height:.28rem;
+        border-radius:50%;
+        line-height:.28rem;
+        background-color:orangered;
+        text-align:center;
+        color:#fff;
+      }
+    }
+  }
+  .choose{
+    width:3.82rem;
+    height:100%;
+    span{
+      display:inline-block;
+      line-height:.96rem;
+      color:#999;
+    }
+  }
+  .balance{
+    width:2.1rem;
+    height:100%;
+    line-height:.96rem;
+    text-align:center;
+    a{
+      font-size:.32rem;
+      font-weight: 700;
+      color:#fff;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.shop-evaluate{
+  display:flex;
+  height:1.9rem;
+  padding:0 .3rem;
+  justify-content: space-around;
+  align-items: center;
+  div{
+    width:20%;
+    span{
+      display:block;
+      text-align: center;
+    }
+    span:nth-child(2n){
+      font-size:.44rem;
+    }
+  }
+  .fraction{
+    font-size:.8rem;
+    text-align:center;
+    color:orangered;
+  }
+  .br{
+    border-right:1px solid #eee;
+  }
+}

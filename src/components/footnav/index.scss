@@ -1,0 +1,29 @@
+/*底部导航*/
+.foot-nav{
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+  height:1.2rem;
+  border-top:.002rem solid #ccc;
+  background-color: #fff;
+  ul{
+    display:flex;
+    justify-content: space-around;
+    li{
+      text-align:center;
+      a{
+        i{
+          font-size:.48rem;
+        }
+        span{
+          display:block;
+          font-size:.2rem;
+        }
+      }
+      .active{
+        color:#00a9ff;
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+/*商家列表*/
+.goods-list{
+  li{
+    padding:.2rem;
+    border-bottom:.002rem solid #ccc;
+    /*商家信息*/
+    .merchant-info{
+      display:flex;
+      /*商家loge*/
+      .loge{
+        margin-right:.2rem;
+        border:.002rem solid #ccc;
+        img{
+          width:1.3rem;
+          height:1.3rem;
+        }
+      }
+      /*商家销售信息*/
+      .info{
+        width:5.8rem;
+        /*信息头部*/
+        .info-top{
+          .shop-name{
+            line-height:.3rem;
+            font-size:.32rem;
+            font-weight: bold;
+            color:#121212;
+          }
+        }
+        /*信息中间*/
+        .info-con{
+          display:flex;
+          width:100%;
+          padding:.14rem 0;
+          justify-content: space-between;
+          /*星级评分*/
+          .evaluate{
+            display:flex;
+            .seals{
+              .score{
+                margin-right:.1rem;
+              }
+            }
+          }
+          .cou{
+            border-radius:12%;
+            background-color:#0095ff;
+            color:#fff;
+            span{
+              display:inline-block;
+              margin:0 .05rem;
+            }
+          }
+        }
+        /*信息底部*/
+        .info-bto{
+          display:flex;
+          justify-content: space-between;
+          .left{
+            color:#666;
+          }
+          .right{
+            color:#999;
+          }
+          div{
+            span:first-child{
+              &:after{
+                display:inline-block;
+                content:"|";
+                margin:0 .1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    /*商家优惠*/
+    .merchant-show{
+      padding-top:.2rem;
+      padding-left:1.52rem;
+      .shop{
+        display:flex;
+        .type{
+          margin-right:.1rem;
+          margin-left:-.05rem;
+          border:.02rem solid #ccc;
+          border-radius:10%;
+          font-size:.0001rem;
+          color:#999;
+        }
+        .good-shop{
+          color:red;
+          i{
+            font-size:.1rem;
+          }
+        }
+      }
+      .show-top{
+        overflow: hidden;
+        display:flex;
+        height:.36rem;
+        justify-content: space-between;
+        margin-top:.25rem;
+        margin-bottom:.08rem;
+        .goods-show{
+          line-height:.3rem;
+          margin-bottom:0;
+          color:#999;
+        }
+      }
+      .st{
+        p{
+          .left{
+            border-radius:.1rem;
+            margin-right:.1rem;
+            background-color: orange;
+            color:#fff;
+          }
+        }
+      }
+    }
+  }
+
+}

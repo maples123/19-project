@@ -1,0 +1,19 @@
+/*商家服务选择*/
+.service{
+  z-index:9;
+  position: sticky;
+  top:1.06rem;
+  left:0;
+  border-bottom:.0004rem solid #ccc;
+  background-color:#fff;
+  ul{
+    display:flex;
+    justify-content: space-around;
+    li{
+      height:.79rem;
+      line-height:.79rem;
+      font-size:.28rem;
+      color:#666;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.my{
+  height:100vh;
+  background-color: #f6f6f6;
+  .user{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:2.2rem;
+    .avatar{
+      width:1.2rem;
+      height:1.2rem;
+      img{
+        width:100%;
+        height:100%;
+        border-radius:50%;
+      }
+    }
+    .profile{
+      display:flex;
+      width:5.14rem;
+      margin-left:.32rem;
+      color:#fff;
+      flex-wrap: wrap;
+      .log-reg{
+        width:100%;
+        font-size:.4rem;
+        font-weight: 700;
+        a{
+          font-size:.4rem;
+          color:#fff;
+        }
+      }
+      .log-after{
+        margin-top:.1rem;
+        .shou-ji{
+          font-size:.1rem;
+        }
+      }
+    }
+    .login{
+      color:#fff;
+    }
+  }
+
+  .main-info{
+    display:flex;
+    height:1.68rem;
+    background-color: #fff;
+    a{
+      display:flex;
+      flex:1;
+      align-content: center;
+      border-right:1px solid #ccc;
+      flex-wrap: wrap;
+      .icon{
+        font-size:.55rem;
+      }
+      span{
+        display: inline-block;
+        width:100%;
+        text-align:center;
+      }
+    }
+    a:nth-child(3n){
+      border-right:0;
+    }
+  }
+
+  .cate-list{
+    .item{
+      margin-top:.24rem;
+      background-color: #fff;
+      a{
+        display:flex;
+        height:.8897rem;
+        padding:0 .2rem;
+        border-bottom: 1px solid #f6f6f6;
+        justify-content: space-between;
+        .left{
+          display:inline-block;
+          margin:0 .15rem;
+          line-height:.8897rem;
+          font-size:.4rem;
+        }
+        p{
+          display: flex;
+          width:6.64rem;
+          line-height:.8897rem;
+          font-size:.32rem;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

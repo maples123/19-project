@@ -1,0 +1,28 @@
+/*顶部定位*/
+.location{
+  padding-top:.24rem;
+  background-color:#0095ff;
+  .sub{
+    height:.62rem;
+    span{
+      display:inline-block;
+      vertical-align: top;
+      line-height:.62rem;
+      font-weight: bold;
+      font-size:.32rem;
+      color:#fff;
+    }
+    .dingwei{
+      text-indent:.3rem;
+    }
+    .toponymy{
+      margin:0 .1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .copy{
+      font-size:.01rem;
+    }
+  }
+}

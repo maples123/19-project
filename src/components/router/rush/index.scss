@@ -1,0 +1,101 @@
+.rush{
+  background-color: #f5f5f5;
+}
+.rush-nav{
+  position:sticky;
+  top:0;
+  left:0;
+  display:flex;
+  height:.9rem;
+  padding:.1rem .2rem;
+  border-bottom:1px solid;
+  background-color:#fff;
+  p{
+    width:1.7rem;
+    height:.7rem;
+    margin:0 .05rem;
+    line-height:.7rem;
+    background-color:#f5f5f5;
+    font-size:.28rem;
+    text-align:center;
+  }
+}
+.rush-list{
+  margin-top:.2rem;
+  li{
+    margin-bottom:.2rem;
+    padding:.1rem .2rem .3rem;
+    background-color: #fff;
+    .shop{
+      display:flex;
+      height:.7rem;
+      line-height:.7rem;
+      border-bottom:.02rem dashed #999;
+      justify-content: space-between;
+      .shop-market{
+        display:flex;
+        width:2.65rem;
+        justify-content: space-between;
+      }
+    }
+    .rush-food{
+      display:flex;
+      padding-top:.2rem;
+      img{
+        width:1.8rem;
+        height:1.8rem;
+        margin-right:.2rem;
+      }
+      .food-info{
+        display:flex;
+        width:5.1rem;
+        height:1.8rem;
+        flex-wrap: wrap;
+        align-content: space-between;
+        p{
+          width:100%;
+          font-size:.3rem;
+          font-weight: 700;
+          color:#333;
+        }
+        .info-con{
+          display:flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          .left{
+            width:3.4rem;
+            color:red;
+            .progress{
+              width:2.4rem;
+              height:.1rem;
+              margin:.1rem 0;
+              border-radius: .1rem;
+              background-color:orangered;
+            }
+            .money{
+              .num{
+                line-height:.3rem;
+                font-size:.5rem;
+              }
+              .no-money{
+                display: inline-block;
+                margin-left:.2rem;
+                text-decoration: line-through;
+                color:#999;
+              }
+            }
+          }
+          .right{
+            width:1.6rem;
+            height:.7rem;
+            line-height:.7rem;
+            border-radius: .1rem;
+            background-color:orangered;
+            text-align: center;
+            color:#fff;
+          }
+        }
+      }
+    }
+  }
+}

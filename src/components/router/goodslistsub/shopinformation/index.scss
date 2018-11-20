@@ -1,0 +1,54 @@
+.shop-information{
+  height:auto;
+  margin-top:.5rem;
+  margin-bottom:.2rem;
+  .info-top{
+    width:5.40rem;
+    margin:auto;
+    .shop-name{
+      width:100%;
+      padding-right:.5rem;
+      font-size:.4rem;
+      text-align: center;
+    }
+    .sale-info{
+      display:flex;
+      width:100%;
+      margin-top:.04rem;
+      justify-content: center;
+      span{
+        margin:0 .12rem;
+      }
+    }
+  }
+  .info-bot{
+    width:6.6rem;
+    margin:.1rem auto 0;
+    .new-user{
+      .number-one{
+        margin-right:.1rem;
+        background-color:#4fbd50;
+        color:#fff;
+      }
+      .pref{
+        color:#121212;
+      }
+      .pref-num{
+        margin-left:.3rem;
+        color:#999;
+      }
+    }
+    .promotion{
+      overflow: hidden;
+      height:0;
+      span{
+        display:block;
+        text-indent:1.5rem;
+      }
+    }
+    .notice{
+      margin-top:.08rem;
+      color:#999;
+    }
+  }
+}

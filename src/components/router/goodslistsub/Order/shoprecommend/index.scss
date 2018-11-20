@@ -1,0 +1,37 @@
+.shop-recommend{
+  margin-top:.2rem;
+  .title{
+    margin-bottom:.2rem;
+    font-size:.34rem;
+    text-indent:.3rem;
+  }
+  .recommend-list{
+    overflow: auto;
+    width:100vw;
+    margin-bottom:.2rem;
+    ul{
+      display:flex;
+      width:183%;
+      margin-left:.1rem;
+      li{
+        width:2.4rem;
+        height:4rem;
+        margin:0 .2rem;
+        img{
+          width:2.4rem;
+          height:2.4rem;
+        }
+        .food-info{
+          .food-name{
+            width:2.4rem;
+            font-size:.3rem;
+            color:#333;
+          }
+          .food-sales{
+            padding:.02rem 0 .06rem;
+          }
+        }
+      }
+    }
+  }
+}

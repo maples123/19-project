@@ -1,0 +1,29 @@
+/*商家列表标题*/
+.recommen{
+  display:flex;
+  height:.72rem;
+  margin-top:.15rem;
+  line-height:.72rem;
+  justify-content: center;
+  align-content: center;
+  font-size:.3rem;
+  color:#121212;
+  &:before{
+    display:block;
+    content:"";
+    width:.4rem;
+    height:.042rem;
+    margin-top:.35rem;
+    margin-right:.3rem;
+    background-color:#ccc;
+  }
+  &:after{
+    display:block;
+    content:"";
+    width:.4rem;
+    height:.042rem;
+    margin-top:.35rem;
+    margin-left:.3rem;
+    background-color:#ccc;
+  }
+}

@@ -1,0 +1,28 @@
+.shop-tab{
+  position: sticky;
+  top:0;
+  left:0;
+  height:.81rem;
+  border-bottom:.02rem solid #eee;
+  background-color: #fff;
+  ul{
+    display:flex;
+    li{
+      display:flex;
+      flex:1;
+      justify-content: center;
+      align-items: center;
+      a{
+        height:.81rem;
+        line-height:.81rem;
+        font-size:.34rem;
+        color:#666;
+      }
+      .active{
+        border-bottom:.05rem solid #00a9ff;
+        font-weight: 700;
+        color:#333;
+      }
+    }
+  }
+}

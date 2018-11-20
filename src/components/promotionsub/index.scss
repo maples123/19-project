@@ -1,0 +1,14 @@
+/*商品活动*/
+.show-banner{
+  margin-top:.1rem;
+  padding:0 .2rem;
+  .ant-carousel .slick-slide {
+    text-align: center;
+    height: 1.76rem;
+    background: #364d79;
+    overflow: hidden;
+  }
+  .ant-carousel .slick-slide img {
+    width:100%;
+  }
+}

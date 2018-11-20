@@ -1,0 +1,30 @@
+.container{
+  width:6.5rem;
+  height:6rem;
+  margin:3rem auto 0;
+  img{
+    display:block;
+    width:6.5rem;
+    height:3.15rem;
+    margin:auto;
+  }
+  h2{
+    width:6.5rem;
+    margin-top:.3rem;
+    font-size:.7rem;
+    font-weight: 500;
+  }
+  p{
+    width:6.5rem;
+    margin:.3rem 0;
+  }
+  .action{
+    margin-top:1rem;
+    text-align:center;
+    font-size:.3rem;
+    color:#333;
+    a{
+      color:#00a9ff;
+    }
+  }
+}

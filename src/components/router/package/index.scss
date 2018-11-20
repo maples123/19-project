@@ -1,0 +1,160 @@
+
+/*推荐导航*/
+.package-nav{
+  overflow: hidden;
+  overflow-x: auto;
+  ul{
+    display:flex;
+    width:130%;
+    li{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height:.75rem;
+      margin:0 .2rem;
+      font-size:.3rem;
+      .on{
+        padding:.05rem 0;
+        border-bottom:.04rem solid #121212;
+        font-weight: 700;
+        color:#121212;
+      }
+    }
+  }
+}
+
+/*套餐商品推荐*/
+.package-re{
+  padding:0 .2rem .2rem;
+  border-bottom:.001rem solid #999;
+  /*商品展示*/
+  .package-goods{
+    display:flex;
+    height:1.2rem;
+    padding:.2rem 0;
+    img{
+      width:.8rem;
+      height:.8rem;
+      margin-right:.2rem;
+    }
+    .goods-info{
+      display:flex;
+      width:6rem;
+      flex-wrap:wrap;
+      h3{
+        display:flex;
+        width:100%;
+        font-weight: 500;
+        justify-content: space-between;
+        .name{
+          font-size:.28rem;
+          color:#666;
+        }
+        .sell-info{
+          margin-top:.04rem;
+          font-size:.1rem;
+          color:#999;
+          i{
+            display:inline-block;
+            width:.04rem;
+            height:.2rem;
+            margin:.01rem .2rem 0;
+            background-color: #ccc;
+          }
+        }
+      }
+      .type{
+        padding:0 .1rem;
+        border:.01rem solid #d1ab8d;
+        color:#d1ab8d;
+      }
+    }
+  }
+  /*商品列表*/
+  .package-list{
+    li{
+      display:flex;
+      padding:.2rem 0;
+      width:7.1rem;
+      height:2.386rem;
+      img{
+        width:2rem;
+        height:2rem;
+        margin-right:.2rem;
+      }
+      .item-info{
+        display:flex;
+        width:4.9rem;
+        height:100%;
+        flex-wrap: wrap;
+        align-content: space-between;
+        .info-top{
+          h4{
+            width:4.9rem;
+            font-size:.295rem;
+            font-weight: 500;
+          }
+          span{
+            display:inline-block;
+            margin-top:.02rem;
+            color:#999;
+          }
+        }
+        .add {
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+          .money {
+            display: flex;
+            align-items: flex-end;
+            color: #b91f20;
+            b{
+              font-size: .2rem;
+            }
+            .num{
+              margin-left:.06rem;
+              margin-right:.2rem;
+              line-height:.38rem;
+              font-size:.4rem;
+              font-weight: 700;
+            }
+            .reduced {
+              border:.02rem solid #ccc;
+              font-size: .22rem;
+              color:#ccc;
+            }
+          }
+          .jia{
+            display: inline-block;
+            width:.4rem;
+            height:.4rem;
+            line-height:.4rem;
+            border-radius: 50%;
+            background-color:#121212;
+            font-size:.36rem;
+            font-weight: 700;
+            text-align: center;
+            color:#fff;
+          }
+        }
+      }
+    }
+  }
+  /*更多*/
+  .more{
+    display:flex;
+    height:.8rem;
+    color:#999;
+    justify-content: center;
+    align-items: center;
+    span{
+      font-size:.26rem;
+    }
+    i{
+      display: inline-block;
+      margin-top:.04rem;
+      margin-left:.1rem;
+      font-size:.2rem;
+    }
+  }
+}

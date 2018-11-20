@@ -1,0 +1,21 @@
+
+.add-sub{
+  overflow: hidden;
+  width:.44rem;
+  /*width:1.3998rem;*/
+  height:.44rem;
+  .num{
+    font-size:.3rem;
+    font-weight: 700;
+    color:#333;
+  }
+  span{
+    display: inline-block;
+    width:.44rem;
+    height:.44rem;
+    line-height:.44rem;
+    font-size:.46rem;
+    text-align: center;
+    color:#00a9ff;
+  }
+}

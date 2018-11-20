@@ -1,0 +1,55 @@
+.search{
+  padding:.2rem;
+  .search-header{
+    display:flex;
+    justify-content: space-between;
+    .back{
+      font-size:.46rem;
+    }
+    .ant-input-search{
+      width:6.5rem;
+    }
+  }
+  .his-search{
+    margin-top:.2rem;
+    .history{
+      display:flex;
+      padding:.2rem 0;
+      justify-content: space-between;
+      h3{
+        font-size:.3rem;
+        color:#666;
+      }
+    }
+    ul{
+      li{
+        display:inline-block;
+        padding:.1rem .15rem;
+        margin-top:.21rem;
+        margin-right:.21rem;
+        border-radius:10%;
+        font-size:.28rem;
+        background-color:#eee;
+      }
+    }
+  }
+  .hot-search{
+    margin-top:.2rem;
+    h3{
+      padding:.2rem 0;
+      font-size:.3rem;
+      color:#666;
+    }
+    ul{
+      li{
+        display:inline-block;
+        padding:.1rem .15rem;
+        margin-top:.21rem;
+        margin-right:.21rem;
+        border-radius:10%;
+        font-size:.28rem;
+        background-color:#eee;
+      }
+    }
+  }
+}

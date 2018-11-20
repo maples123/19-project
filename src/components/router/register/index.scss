@@ -1,0 +1,35 @@
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+.Register-container{
+  width:6rem;
+  height:4rem;
+  margin:1rem auto 0;
+  .Register-loge{
+    display:flex;
+    height:1.2rem;
+    margin-bottom:.3rem;
+    justify-content: center;
+    align-items: center;
+    img{
+      width:50%;
+      height:90%;
+    }
+  }
+  .Register-form{
+    input{
+      height:.9rem;
+    }
+    button{
+      width:100%;
+      height:.9rem;
+    }
+  }
+}

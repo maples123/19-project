@@ -1,0 +1,24 @@
+.price-info{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+  .price{
+    display:flex;
+    p{
+      height:.44rem;
+      line-height:.44rem;
+      font-size:.39rem;
+      color:red;
+      b{
+        font-size:.3rem;
+      }
+    }
+    .no{
+      padding-top:.1rem;
+      margin-left:.2rem;
+      font-size:.2rem;
+      text-decoration: line-through;
+      color:#999;
+    }
+  }
+}
